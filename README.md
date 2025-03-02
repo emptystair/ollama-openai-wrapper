@@ -44,18 +44,19 @@ If you want to use this service with cloud-based tools, you can expose it using 
 ngrok http 5000
 ```
 
-Copy the HTTPS URL provided by ngrok (e.g., `https://85d9-2603-6080-xxxx-xxxx.ngrok-free.app`).
+Copy the HTTPS URL provided by ngrok (e.g., `https://random-string.ngrok-free.app`).
 
 ## Using with Cursor AI
-
 1. Open Cursor AI settings
-2. Set the following:
-   - API Base: Your server URL + `/v1` (e.g., `https://85d9-2603-6080-xxxx-xxxx.ngrok-free.app/v1`)
+2. Navigate to the "Models" submenu
+3. Enable the OpenAI API key toggle (the switch should turn green)
+4. Set the following:
+   - Override OpenAI Base URL: Your server URL + `/v1` (e.g., `https://random-string.ngrok-free.app/v1`)
    - API Key: Any string (e.g., `fake-api-key`)
-3. Click "Add Model"
-4. Enter the exact name of an Ollama model you have installed
-5. Deselect all other models
-6. Save and start using your local Ollama models in Cursor!
+5. Click "Add Model"
+6. Enter the exact name of an Ollama model you have installed
+7. Deselect all other models
+8. Save and start using your local Ollama models in Cursor!
 
 ## Available Endpoints
 
