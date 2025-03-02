@@ -13,9 +13,9 @@ This project provides a compatibility layer between Ollama and applications that
 ## Quick Start
 
 ### Prerequisites
-
 - [Docker](https://www.docker.com/get-started/)
 - [Ollama](https://ollama.ai/) installed and running
+  - You'll need to have a local model pulled in Ollama (e.g., `ollama pull llama3`)
 - [ngrok](https://ngrok.com/) for exposing your local server (Cursor will not recognize a localhost address)
 
 ### Running with Docker
